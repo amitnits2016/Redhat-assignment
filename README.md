@@ -30,9 +30,9 @@ if Hello message appears, that means project is running fine
 ```
 http://localhost:8080/swagger-ui.html
 ```
-![title](swagger.png)
+![title](swagger.PNG)
 ## Step8: Click on Post, then click on tryout, then choose a file where log is given
-![title](logfile.png)
+![title](logfile.PNG)
 ## Step9: Click on Execute
 You will get a response with response code 200 and response body with Json file
-![title](response.png)
+![title](response.PNG)
