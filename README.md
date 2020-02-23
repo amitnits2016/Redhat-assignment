@@ -31,7 +31,7 @@ http://localhost:8080
 ```
 if Hello message appears, that means project is running fine
 ## Step8: Open Swagger or any Rest API client like Postman
-For swagger : http://localhost:8080/swagger-ui.html
+For swagger : http://localhost:8080/swagger-ui.html then click on rest-controller
 ```
 For Postman : "http://localhost:8080/uploadFile" with POST and uploading logfile
 ```
