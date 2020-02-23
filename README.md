@@ -3,7 +3,7 @@
 ## Step2: goto your clone directory
 ## Step3: create a directory inside your clone directory
 ```
-mkdir Redhat-assignment/
+mkdir projects/
 ```
 ## Step4: clone the project
 ```
