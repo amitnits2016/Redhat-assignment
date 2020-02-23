@@ -40,4 +40,4 @@ For Postman : "http://localhost:8080/uploadFile" with POST and uploading logfile
 ![title](logfile.PNG)
 ## Step10: Click on Execute
 You will get a response with response code 200 and response body with Json file
-![title](response.PNG)
+![title](get_response.PNG)
