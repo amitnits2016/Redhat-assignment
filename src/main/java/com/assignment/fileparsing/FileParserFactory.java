@@ -9,6 +9,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class FileParserFactory {
     public static FileFilterResponseList parse(Path filePathInServer) throws IOException {
@@ -21,9 +23,6 @@ public class FileParserFactory {
         	if (!(line.contains("ENTER") || line.contains("EXIT"))) {
         		continue;
         	}
-        	
-        	
-            // logic
         	FileFilterResponse f = new FileFilterResponse();
         	
         	String[] fileParts = line.split(":");
@@ -44,7 +43,7 @@ public class FileParserFactory {
         	f.setLineNumber(Integer.parseInt(val3Parts[0]));
         	
         	val3Parts[1] = val3Parts[1].trim();
-        	if (val3Parts[1].contains("0")) {
+        	if (val3Parts[1].equals("0") || !isValidFunctionName(val3Parts[1])) {
         		f.setName("anonymous");
         	} else {
         		f.setName(val3Parts[1]);
@@ -55,5 +54,12 @@ public class FileParserFactory {
         }
         
         return new FileFilterResponseList(results);
+    }
+    
+    private static boolean isValidFunctionName(String functionName) {
+    	Pattern pattern = Pattern.compile("^[a-zA-Z_]+[a-zA-Z0-9_]*");
+    	
+    	Matcher m = pattern.matcher(functionName);
+    	return m.find();
     }
 }
