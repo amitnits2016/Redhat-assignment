@@ -1,6 +1,6 @@
 # Redhat-assignment
 ## Step1: open gitbash
-![title](open_gitbash.PNG)
+![title](open_gitbash_1.PNG)
 ## Step2: create a clone directory
 ```
 mkdir projects/
