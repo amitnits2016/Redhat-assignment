@@ -1,0 +1,76 @@
+{
+  "result": [
+    {
+      "operation": "ENTRY",
+      "fileName": "/usr/local/src/pkg/apis/machineconfiguration.openshift.io/v1/register.go",
+      "lineNumber": 28,
+      "name": "anonymous"
+    },
+    {
+      "operation": "EXIT",
+      "fileName": "/usr/local/src/src/github.com/openshift/machine-config-operator/pkg/apis/machineconfiguration.openshift.io/v1/register.go",
+      "lineNumber": 28,
+      "name": "anonymous"
+    },
+    {
+      "operation": "ENTRY",
+      "fileName": "/usr/local/src/github.com/openshift/machine-config-operator/pkg/generated/clientset/versioned/scheme/register.go",
+      "lineNumber": 19,
+      "name": "anonymous"
+    },
+    {
+      "operation": "ENTRY",
+      "fileName": "/usr/local/src/github.com/openshift/machine-config-operator/pkg/apis/machineconfiguration.openshift.io/v1/register.go",
+      "lineNumber": 32,
+      "name": "addKnownTypes"
+    },
+    {
+      "operation": "EXIT",
+      "fileName": "/usr/local/src/github.com/openshift/machine-config-operator/pkg/apis/machineconfiguration.openshift.io/v1/register.go",
+      "lineNumber": 32,
+      "name": "addKnownTypes"
+    },
+    {
+      "operation": "EXIT",
+      "fileName": "/usr/local/src/golang/src/github.com/openshift/machine-config-operator/pkg/generated/clientset/versioned/scheme/register.go",
+      "lineNumber": 19,
+      "name": "anonymous"
+    },
+    {
+      "operation": "ENTRY",
+      "fileName": "/usr/local/src/github.com/openshift/machine-config-operator/test/e2e/mcd_test.go",
+      "lineNumber": 21,
+      "name": "TestMCDToken"
+    },
+    {
+      "operation": "ENTRY",
+      "fileName": "/usr/local/src/github.com/openshift/machine-config-operator/cmd/common/client_builder.go",
+      "lineNumber": 34,
+      "name": "NewClientBuilder"
+    },
+    {
+      "operation": "EXIT",
+      "fileName": "/usr/local/src/github.com/openshift/machine-config-operator/cmd/common/client_builder.go",
+      "lineNumber": 34,
+      "name": "NewClientBuilder"
+    },
+    {
+      "operation": "ENTRY",
+      "fileName": "/usr/local/src/github.com/openshift/machine-config-operator/cmd/common/client_builder.go",
+      "lineNumber": 22,
+      "name": "KubeClientOrDie"
+    },
+    {
+      "operation": "EXIT",
+      "fileName": "/usr/local/src/github.com/openshift/machine-config-operator/cmd/common/client_builder.go",
+      "lineNumber": 22,
+      "name": "KubeClientOrDie"
+    },
+    {
+      "operation": "EXIT",
+      "fileName": "/usr/local/src/github.com/openshift/machine-config-operator/test/e2e/mcd_test.go",
+      "lineNumber": 21,
+      "name": "TestMCDToken"
+    }
+  ]
+}
