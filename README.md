@@ -31,9 +31,9 @@ http://localhost:8080
 ```
 if Hello message appears, that means project is running fine
 ## Step8: Open Swagger or any Rest API client like Postman
-For Postman : http://localhost:8080/uploadFile
+For swagger : http://localhost:8080/swagger-ui.html
 ```
-http://localhost:8080/swagger-ui.html
+For Postman : "http://localhost:8080/uploadFile" with POST and uploading logfile
 ```
 ![title](swagger.PNG)
 ## Step9: Click on Post, then click on tryout, then choose a file where log is given
