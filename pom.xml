@@ -57,6 +57,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>redhat-assignment</finalName>
 	</build>
 
 </project>
