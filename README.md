@@ -41,3 +41,6 @@ For Postman : "http://localhost:8080/uploadFile" with POST and uploading logfile
 ## Step10: Click on Execute
 You will get a response with response code 200 and response body with Json file
 ![title](get_response.PNG)
+
+## Step11: Find the docker image
+Docker Image : https://hub.docker.com/u/amitnits2016
